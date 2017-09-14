@@ -1,0 +1,6 @@
+item
+        foreach
+            parejas.item($itemName,$itemParams,$itemText)
+        assert
+            parejas.render($itemName,$itemParams,itemText)
+
